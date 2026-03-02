@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66">
+  <g id="Group_1311" data-name="Group 1311" transform="translate(-528 -752)">
+    <g id="Rectangle_746" data-name="Rectangle 746" transform="translate(528 752)" fill="none" stroke="#707070" stroke-width="1" opacity="0.311">
+      <rect width="66" height="66" rx="17" stroke="none"/>
+      <rect x="0.5" y="0.5" width="65" height="65" rx="16.5" fill="none"/>
+    </g>
+    <path id="Subtraction_4" data-name="Subtraction 4" d="M12.251,24.5A12.252,12.252,0,0,1,.965,7.482,12.237,12.237,0,0,1,12.251,0a12.248,12.248,0,0,1,8.663,20.913A12.209,12.209,0,0,1,12.251,24.5Zm-.62-11.032v3.861H13.47V13.468h3.861V11.63H13.47V7.769H11.631V11.63H7.77v1.838Z" transform="translate(549 772.998)" fill="#c9c9c9"/>
+  </g>
+</svg>

@@ -1,0 +1,115 @@
+.loginFormContainer h2 {
+  font-family: "helveticaneuethin" !important;
+  font-size: 40px;
+  color: #2c2c2c;
+  margin-bottom: 0px;
+  font-weight: 100;
+}
+.loginFormContainer h4 {
+  font-family: "helveticaneuelight" !important;
+  font-size: 14px;
+  margin-bottom: 2rem;
+  margin-top: 10px;
+  color: #606060;
+  letter-spacing: 1px;
+}
+.loginFormContainer h4::after {
+  content: " ";
+  width: 50px;
+  height: 2px;
+  background: #9fc546;
+  display: block;
+  margin-top: 17px;
+  border-radius: 3px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formWrapper #password {
+  padding-right: 45px;
+}
+.formWrapper .form_inputs_div {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.formWrapper .input_group {
+  align-items: center;
+  width: 100%;
+}
+.formWrapper .form_control {
+  border-radius: 2rem !important;
+  border: 1px solid #cccccc !important;
+  margin: 0 auto;
+  padding: 25px;
+  letter-spacing: 2px;
+  max-height: 52px;
+  width: 100%;
+}
+.formWrapper .btnSubmit_div {
+  margin-bottom: 10px !important;
+}
+.formWrapper .btnSubmit {
+  font-family: "helveticaneueregular" !important;
+  font-size: 14px !important;
+  letter-spacing: 2px;
+  border-radius: 2rem !important;
+  border: #707070 !important;
+  color: #ffffff !important;
+  background-color: #053a51 !important;
+  padding-top: 14px !important;
+  padding-bottom: 14px !important;
+  /* box-shadow: 0px 5px 9px #00000029 !important; */
+  padding-left: 40px !important;
+  padding-right: 40px !important;
+  width: auto;
+}
+
+.fgt_pwd_div {
+  margin-bottom: 0px !important;
+}
+
+.fgt_pwd {
+  color: #606060;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.fgt_pwd:hover {
+  color: #606060;
+}
+
+.form_control::-moz-placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cccccc;
+  opacity: 1;
+  /* Firefox */
+}
+
+.form_control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cccccc;
+  opacity: 1;
+  /* Firefox */
+}
+
+input:focus {
+  outline: none;
+  border-color: #240370;
+  background-color: transparent;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}/*# sourceMappingURL=LoginForm.module.css.map */

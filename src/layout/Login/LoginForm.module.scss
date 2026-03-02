@@ -1,0 +1,195 @@
+.loginFormContainer {
+  h2 {
+    font-family: 'helveticaneuethin' !important;
+    font-size: 40px;
+    color: #2c2c2c;
+    margin-bottom: 0px;
+    font-weight: 100;
+  }
+
+  h4 {
+    font-family: 'helveticaneuelight' !important;
+    font-size: 14px;
+    margin-bottom: 2rem;
+    margin-top: 10px;
+    color: #606060;
+    letter-spacing: 1px;
+
+    &::after {
+      content: ' ';
+      width: 50px;
+      height: 2px;
+      background: #9fc546;
+      display: block;
+      margin-top: 17px;
+      border-radius: 3px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.formWrapper {
+  #password {
+    padding-right: 45px;
+  }
+
+  .form_inputs_div {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  .input_group {
+    align-items: center;
+    width: 100%;
+  }
+
+  .form_control {
+    border-radius: 2rem !important;
+    border: 1px solid #cccccc !important;
+    margin: 0 auto;
+    padding: 25px;
+    letter-spacing: 2px;
+    max-height: 52px;
+    width: 100%;
+  }
+
+  .btnSubmit_div {
+    margin-bottom: 10px !important;
+  }
+
+  .btnSubmit {
+    font-family: 'helveticaneueregular' !important;
+    font-size: 14px !important;
+    letter-spacing: 2px;
+    border-radius: 2rem !important;
+    border: #707070 !important;
+    color: #ffffff !important;
+    background-color: #053a51 !important;
+    padding-top: 14px !important;
+    padding-bottom: 14px !important;
+    /* box-shadow: 0px 5px 9px #00000029 !important; */
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    width: auto;
+  }
+}
+
+.fgt_pwd_div {
+  margin-bottom: 0px !important;
+}
+
+.fgt_pwd {
+  color: #606060;
+  font-size: 14px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  cursor: pointer;
+
+  &:hover {
+    color: #606060;
+  }
+}
+
+.form_control::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #cccccc;
+  opacity: 1;
+  /* Firefox */
+}
+
+input:focus {
+  outline: none;
+  border-color: #240370;
+  background-color: transparent;
+}
+
+.invalid input {
+  border: 1px solid #b40e0e;
+  background-color: #fddddd;
+}
+
+.invalid input:focus {
+  border-color: #ff8800;
+  background-color: #fbe8d2;
+}
+.languageField {
+  position: relative;
+  width: 85%;
+  margin: 0 auto;
+  margin-bottom: 22px;
+}
+
+.languageSelect {
+  width: 100%;
+  height: 50px;
+  padding-inline-start: 22px;
+  padding-inline-end: 52px;
+  border: 1px solid #d0d5dd; /* ✅ NORMAL BORDER COLOR */
+
+  border-radius: 28px;
+  font-size: 15px;
+
+  cursor: pointer;
+
+  display: flex;
+  align-items: center;
+}
+.languageSelect {
+  outline: none !important;
+  box-shadow: none !important;
+  transition: all 0.2s ease;
+}
+
+/* 🔥 EXACT same focus look as inputs */
+.languageSelect:focus,
+.languageSelect:focus-visible {
+  // border: 1px solid #9cbcff;
+  outline: none !important;
+  box-shadow: none !important;
+  background-color: #eaf2ff;
+}
+.languagePlaceholder {
+  position: absolute;
+  left: 22px;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 13px;
+  color: #9ca3af;
+  pointer-events: none; /* 🔥 important */
+}
+// .confirmFieldWrap {
+//   position: relative;
+//   width: 100%;
+//   padding-bottom: 22px; // reserve small space for error
+// }
+
+// .confirmErrorText {
+//   position: absolute;
+//   left: 20px;
+//   bottom: 0px;
+//   font-size: 12px;
+//   color: #d32f2f;
+//   margin: 0;
+//   line-height: 14px;
+// }
+.confirmFieldWrap {
+  position: relative;
+  width: 100%;
+  padding-bottom: 22px;
+}
+
+.confirmErrorText {
+  position: absolute;
+  left: 20px;
+  bottom: 0px;
+  font-size: 12px;
+  color: red;
+  margin: 0;
+  pointer-events: none; // 🔥 makes button clickable
+}

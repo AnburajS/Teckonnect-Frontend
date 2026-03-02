@@ -1,0 +1,31 @@
+.dataTables_filter {
+  text-align: right;
+}
+
+.dataTable {
+  clear: both;
+  margin-bottom: 6px !important;
+  max-width: none !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+
+.pagination {
+  border: 1px solid rgba(211, 211, 211, 0.3215686275);
+  padding: 6px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  bottom: 2px;
+  position: absolute;
+}
+.pagination .left {
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+.pagination .right span {
+  font-weight: bold !important;
+}/*# sourceMappingURL=Table.module.css.map */

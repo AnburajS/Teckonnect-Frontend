@@ -1,0 +1,103 @@
+.navbar_bg_color {
+  background-color: #f8f8f8 !important;
+}
+
+.br-b-25 {
+  border-radius: 0px !important;
+}
+
+.topbar {
+  height: 4.375rem;
+}
+
+.eep-logo {
+  max-height: 44px;
+  max-width: 150px;
+}
+
+.topbar .sidebarToggleTop {
+  height: 2.5rem;
+  width: 2.5rem;
+}
+
+.eep-topbar-divider {
+  width: 0;
+  border-right: 0.5px solid #cccccc;
+  height: 3.375rem;
+  margin: auto 1rem;
+}
+
+.pg_heading h2 {
+  font-family: "helveticaneuelight" !important;
+  font-size: 22px;
+  margin-bottom: 0px;
+  color: #272727;
+}
+
+.eep_searchbar {
+  height: 40px;
+  background-color: #fff;
+  border-radius: 30px;
+  padding: 10px;
+}
+
+.eep_search_input {
+  color: #2c2c2c;
+  border: 0;
+  outline: 0;
+  background: none;
+  width: 250px !important;
+  line-height: 20px;
+  transition: width 0.4s linear;
+  padding: 0px;
+  font-family: "helveticaneuelight";
+  letter-spacing: 1px;
+}
+
+.eep_search_icon {
+  height: 20px;
+  width: 20px;
+  float: right;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  color: #ffffff;
+}
+
+.topbar .nav-item .nav-link {
+  height: 4.375rem;
+  display: flex;
+  align-items: center;
+  padding: 0 0.75rem;
+}
+.topbar .nav-item::after {
+  display: none;
+}
+
+.badge-counter {
+  background-color: #ff0000;
+  right: -13px !important;
+  top: 10px;
+  padding: 4px 6px !important;
+  width: 40px;
+  font-size: 14px;
+  font-family: "helveticaneueregular";
+  letter-spacing: 2px;
+  margin-top: -0.9rem !important;
+  border-radius: 10px;
+  position: absolute;
+  transform: scale(0.7);
+  transform-origin: top right;
+  top: 10px;
+}
+.badge-counter::after {
+  display: none;
+}
+
+.img-profile {
+  height: 40px !important;
+  width: 40px !important;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137);
+  border: 2px solid #ffffff;
+}/*# sourceMappingURL=Header.module.css.map */

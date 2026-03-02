@@ -1,0 +1,37 @@
+.dataTables_filter {
+  text-align: right;
+}
+
+.dataTable {
+  clear: both;
+  margin-bottom: 6px !important;
+  max-width: none !important;
+  border-collapse: separate !important;
+  border-spacing: 0;
+}
+
+.pagination {
+  border: 1px solid #d3d3d352;
+  padding: 6px;
+  border-radius: 10px;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  width: -webkit-fill-available;
+  bottom: 2px;
+  // width: 90%;
+  position: absolute;
+  .left {
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .right {
+    span {
+      font-weight: bold !important;
+    }
+  }
+
+  
+}

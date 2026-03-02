@@ -1,0 +1,42 @@
+@import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+@import '../node_modules/@fortawesome/fontawesome-free/css/all.min.css';
+@import 'eepfonts.scss';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap');
+@import './styles/lib/sb-admin-2.min.scss';
+@import './styles/lib/theme-style.scss';
+@import './styles/lib/admin-panel.scss';
+@import './styles/lib/role-management.scss';
+@import './styles/lib/hash-tag.scss';
+@import './styles/lib/recognition.scss';
+@import './styles/lib/select.scss';
+@import '../node_modules/react-datepicker/dist/react-datepicker.min.css';
+@import './styles/lib/eep-date-picker.scss';
+@import '../node_modules/slick-carousel/slick/slick.css';
+@import '../node_modules/slick-carousel/slick/slick-theme.css';
+@import './styles/lib/e-card.scss';
+@import './styles/lib/image-slider.scss';
+@import './styles/lib/survey.scss';
+@import './styles/lib/ideabox.scss';
+@import './styles/lib/communication-modal.scss';
+@import './styles/lib/forum.scss';
+@import './styles/lib/polls.scss';
+@import './styles/lib/custom-style.scss';
+@import './styles/lib/eep-progress.scss';
+@import './styles/lib/help-center.scss';
+@import './styles/lib/email-template.scss';
+@import './styles/lib/reedom.scss';
+
+
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */

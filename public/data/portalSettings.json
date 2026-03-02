@@ -1,0 +1,151 @@
+{
+  "DateFormats": [
+    {
+      "date": "YYYY/MM/DD",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "YYYY.MM.DD",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "YYYY-MM-DD",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "MM/DD/YY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "MM.DD.YY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "MM-DD-YY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "MM/DD/YYYY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "MM.DD.YYYY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "MM-DD-YYYY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "DD/MM/YYYY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "DD.MM.YYYY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "DD-MM-YYYY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "DD/MMMM/YYYY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "DD.MMMM.YYYY",
+      "isSelected": false,
+      "type": "date"
+    },
+    {
+      "date": "DD-MMMM-YYYY",
+      "isSelected": false,
+      "type": "date"
+    }
+  ],
+  "timeFormats": [
+    {
+      "time": "HH:MM:SS AM/PM",
+      "isSelected": true,
+      "type": "time"
+    },
+    {
+      "time": "HH:MM:SS",
+      "isSelected": false,
+      "type": "time"
+    }
+  ],
+  "months": [
+    {
+      "month": "January",
+      "isSelected": true
+    },
+    {
+      "month": "February",
+      "isSelected": false
+    },
+    {
+      "month": "March",
+      "isSelected": false
+    },
+    {
+      "month": "April",
+      "isSelected": false
+    },
+    {
+      "month": "May",
+      "isSelected": false
+    },
+    {
+      "month": "June",
+      "isSelected": false
+    },
+    {
+      "month": "July",
+      "isSelected": false
+    },
+    {
+      "month": "August",
+      "isSelected": false
+    },
+    {
+      "month": "September",
+      "isSelected": false
+    },
+    {
+      "month": "October",
+      "isSelected": false
+    },
+    {
+      "month": "November",
+      "isSelected": false
+    },
+    {
+      "month": "December",
+      "isSelected": false
+    }
+  ],
+  "language": [
+    {
+      "language": "English (US)",
+      "isSelected": true
+    },
+    {
+      "language": "Arabic (AR)",
+      "isSelected": false
+    }
+  ]
+}

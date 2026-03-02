@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="210" height="180" viewBox="0 0 210 180">
+  <g id="Group_1311" data-name="Group 1311" transform="translate(-882 -588)">
+    <g id="Group_982" data-name="Group 982" transform="translate(882 588)">
+      <g id="Rectangle_165" data-name="Rectangle 165" fill="#fff" stroke="#d8d8d8" stroke-width="1">
+        <rect width="210" height="180" rx="20" stroke="none"/>
+        <rect x="0.5" y="0.5" width="209" height="179" rx="19.5" fill="none"/>
+      </g>
+      <g id="Component_2_221" data-name="Component 2 – 221" transform="translate(64 50)" style="mix-blend-mode: multiply;isolation: isolate">
+        <circle id="Ellipse_82" data-name="Ellipse 82" cx="40.5" cy="40.5" r="40.5" transform="translate(0 0)" fill="#c9c9c9"/>
+      </g>
+      <path id="Union_3" data-name="Union 3" d="M12.519,31V18.481H0V12.519H12.519V0h5.962V12.519H31v5.962H18.481V31Z" transform="translate(90 75)" fill="rgba(255,255,255,0.57)"/>
+    </g>
+  </g>
+</svg>

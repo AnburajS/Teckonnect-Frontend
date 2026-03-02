@@ -1,0 +1,90 @@
+{
+    "nominateLists": [
+      {
+        "label": "Assign without schedule",
+        "value": "nonschedule"
+      },
+      {
+        "label": "Monthly",
+        "value": "Monthly"
+      },
+      {
+        "label": "Quarterly",
+        "value": "Quarterly"
+      },
+      {
+        "label": "Half Yearly",
+        "value": "Half_Yearly"
+      },
+      {
+        "label": "Yearly",
+        "value": "Yearly"
+      },
+      {
+        "label": "Between Dates",
+        "value": "Between_Dates"
+      }
+    ],
+    "nominateSettings": {
+      "nonschedule":  {
+        "label": "Assign without schedule",
+        "immediate": false,
+        "immediateHelpText": "",
+        "date": false,
+        "BetweenData": false,
+        "month": false,
+        "helpText": "",
+        "scheduleTime": false
+      },
+      "Monthly":  {
+        "label": "Monthly",
+        "immediate": true,
+        "immediateHelpText": "Enable it to assign for nominator to nominate immediatly.",
+        "date": true,
+        "BetweenData": false,
+        "month": false,
+        "helpText": "Check the schedule month(s) in left column based on selection.",
+        "scheduleTime": true
+      },
+      "Quarterly":  {
+        "label": "Quarterly",
+        "immediate": true,
+        "immediateHelpText": "Enable it to assign for nominator to nominate immediatly.",
+        "date": true,
+        "BetweenData": false,
+        "month": true,
+        "helpText": "Check the schedule month(s) in left column based on selection.",
+        "scheduleTime": true
+      },
+      "Half_Yearly":  {
+        "label": "Half Yearly",
+        "immediate": true,
+        "immediateHelpText": "Enable it to assign for nominator to nominate immediatly.",
+        "date": true,
+        "BetweenData": false,
+        "month": true,
+        "helpText": "Check the schedule month(s) in left column based on selection.",
+        "scheduleTime": true
+      },
+      "Yearly":  {
+        "label": "Yearly",
+        "immediate": true,
+        "immediateHelpText": "Enable it to assign for nominator to nominate immediatly.",
+        "date": true,
+        "BetweenData": false,
+        "month": true,
+        "helpText": "Check the schedule month(s) in left column based on selection.",
+        "scheduleTime": true
+      },
+      "Between_Dates":  {
+        "label": "Between Dates",
+        "immediate": false,
+        "immediateHelpText": "Enable it to assign for nominator to nominate immediatly.",
+        "date": false,
+        "BetweenData": true,
+        "helpText": "Start date should be consider as schedule date.",
+        "month": false,
+        "scheduleTime": true
+      }
+    }
+}

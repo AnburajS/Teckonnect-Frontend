@@ -1,0 +1,177 @@
+[
+  {
+    "header": "Admin Panel",
+    "permissions": [
+      {
+        "label": "Admin Panel",
+        "value": "adminPanel",
+        "tipvalue": "Enable user access to branding, department, user and roles/permissions"
+      }
+    ]
+  },
+  {
+    "header": "Dashboard",
+    "permissions": [
+      {
+        "label": "Employee Engagement Dashboard",
+        "value": "employeeEngagementDashboard",
+        "tipvalue": "Enable user to view Engagement dashboard"
+      },
+      {
+        "label": "Hall Of Fame",
+        "value": "hallOfFame",
+        "tipvalue": "Enable user to view Hall of Fame dashboard"
+      }
+    ]
+  },
+  {
+    "header": "E cards",
+    "permissions": [
+      {
+        "label": "Ecard Templates",
+        "value": "ecardTemplates",
+        "tipvalue": "Enable user to add card designs, messages and schedule"
+      }
+    ]
+  },
+  {
+    "header": "Certificates",
+    "permissions": [
+      {
+        "label": "Certificate Send",
+        "value": "certificateSend",
+        "tipvalue": "Enable user to issue certificates"
+      },
+      {
+        "label": "Certificate Create",
+        "value": "certificateCreate",
+        "tipvalue": "Enable user to create certificate designs"
+      },
+      {
+        "label": "Certificate Modify",
+        "value": "certificateModify",
+        "tipvalue": "Enable user to modify certificate designs"
+      }
+    ]
+  },
+  {
+    "header": "Badges",
+    "permissions": [
+      {
+        "label": "Badge Send",
+        "value": "badgeSend",
+        "tipvalue": "Enable user to issue badges"
+      },
+      {
+        "label": "Badge Create",
+        "value": "badgeCreate",
+        "tipvalue": "Enable user to create badges"
+      },
+      {
+        "label": "Badge Modify",
+        "value": "badgeModify",
+        "tipvalue": "Enable user to modify badges"
+      }
+    ]
+  },
+  {
+    "header": "Awards",
+    "permissions": [
+      {
+        "label": "Award Create",
+        "value": "awardCreate",
+        "tipvalue": "Enable user to create awards"
+      },
+      {
+        "label": "Award Modify",
+        "value": "awardModify",
+        "tipvalue": "Enable user to modify awards"
+      },
+      {
+        "label": "Award Categorisation",
+        "value": "awardCategorisation",
+        "tipvalue": "Enable user to categorize awards"
+      },
+      {
+        "label": "Award Nominator Assignee ",
+        "value": "awardNominatorAssignee",
+        "tipvalue": "Enable user to nominate employees for awards"
+      }
+    ]
+  },
+  {
+    "header": "Survey",
+    "permissions": [
+      {
+        "label": "Survey Create",
+        "value": "surveyCreate",
+        "tipvalue": "Enable user to create surveys"
+      },
+      {
+        "label": "Survey Manage",
+        "value": "surveyManage",
+        "tipvalue": "Enable user to modify surveys"
+      }
+    ]
+  },
+  {
+    "header": "Innovations",
+    "permissions": [
+      {
+        "label": "Innovation Hub Hide",
+        "value": "ideaboxHide",
+        "tipvalue": "Enable user to censure inappropriate posts"
+      }
+    ]
+  },
+  {
+    "header": "Forum",
+    "permissions": [
+      {
+        "label": "My Forum",
+        "value": "myForums",
+        "tipvalue": "Enable user to censure my forum"
+      },
+      {
+        "label": "Forum Hide",
+        "value": "forumHide",
+        "tipvalue": "Enable user to censure inappropriate posts"
+      }
+    ]
+  },
+  {
+    "header": "Polls",
+    "permissions": [
+      {
+        "label": "Poll Create",
+        "value": "pollCreate",
+        "tipvalue": "Enable user to create polls"
+      },
+      {
+        "label": "Poll Modify",
+        "value": "pollModify",
+        "tipvalue": "Enable user to modify polls"
+      }
+    ]
+  },
+  {
+    "header": "Enlite Wall",
+    "permissions": [
+      {
+        "label": "Hide",
+        "value": "enliteWallHide",
+        "tipvalue": "Enable user to censure inappropriate posts or comments"
+      }
+    ]
+  },
+  {
+    "header": "Org Chart",
+    "permissions": [
+      {
+        "label": "Org Chart",
+        "value": "orgChart",
+        "tipvalue": "Org Chart"
+      }
+    ]
+  }
+]

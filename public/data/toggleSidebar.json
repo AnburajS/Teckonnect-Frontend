@@ -1,0 +1,88 @@
+{
+  "survey": {
+    "fields": [
+      {
+        "label": "Survey Pending",
+        "link": "#",
+        "isCustomComponent": true,
+        "imgSrc": "",
+        "bgClassName": "bg-red"
+      },
+      {
+        "label": "Create Survey",
+        "link": "createsurvey",
+        "isCustomComponent": false,
+        "imgSrc": "plus-green.svg",
+        "bgClassName": "bg-light-green"
+      },
+      {
+        "label": "Survey Vault",
+        "link": "librarysurvey",
+        "isCustomComponent": false,
+        "imgSrc": "engagement.png",
+        "bgClassName": "bg-blue-green"
+      },
+      {
+        "label": "Manage Surveys",
+        "link": "mysurvey",
+        "isCustomComponent": false,
+        "imgSrc": "my-survey.svg",
+        "bgClassName": "bg-light-blue"
+      },
+      {
+        "label": "View Results",
+        "link": "survey",
+        "isCustomComponent": false,
+        "imgSrc": "view-results.svg",
+        "bgClassName": "bg-orange"
+      },
+      {
+        "label": "Question Bank",
+        "link": "surveyquestions",
+        "isCustomComponent": false,
+        "imgSrc": "question-bank.svg",
+        "bgClassName": "bg-blue-green"
+      }
+    ]
+  },
+  "polls": {
+    "fields": [
+      {
+        "label": "Polls Pending",
+        "link": "pollpending",
+        "isCustomComponent": true,
+        "imgSrc": "",
+        "bgClassName": "bg-red"
+      },
+      {
+        "label": "Create Poll",
+        "link": "createpoll",
+        "isCustomComponent": false,
+        "imgSrc": "plus-green.svg",
+        "bgClassName": "bg-light-green"
+      },
+
+      {
+        "label": "Active Polls",
+        "link": "activepolls",
+        "isCustomComponent": false,
+        "imgSrc": "active-polls.svg",
+        "bgClassName": "bg-blue-green"
+      },
+      {
+        "label": "View Results",
+        "link": "polls",
+        "isCustomComponent": false,
+        "imgSrc": "view-results.svg",
+        "bgClassName": "bg-orange"
+      },
+      {
+        "label": "Manage Polls",
+        "link": "closedpolls",
+        "isCustomComponent": false,
+        "imgSrc": "closed-polls.svg",
+        "bgClassName": "bg-light-blue"
+      }
+    ]
+  }
+}

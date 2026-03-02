@@ -1,0 +1,241 @@
+.urm_left_heading,
+.urm_right_heading {
+  padding-left: 1rem;
+  margin-bottom: 0.5rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.2;
+  position: sticky;
+  top: 0;
+  background-color: #ffffff;
+  z-index: 2;
+}
+
+.user_roles_container {
+  display: flex;
+  flex-direction: column;
+  border-radius: 8px;
+}
+
+.user_roles {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-top: 0.25rem;
+}
+
+.user_role {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ededed;
+  border-radius: 8px;
+  padding: 0.35rem;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.user_role.selected {
+  opacity: 1;
+  font-weight: 600;
+}
+
+.user_role:not(.selected) {
+  opacity: 0.5;
+}
+
+.user_role_color {
+  padding: 5px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+  padding: 5px;
+  border-radius: 50%;
+  height: 20px;
+  width: 20px;
+}
+
+.user_role .user_role_name {
+  margin-left: 0.5rem;
+}
+
+.user_role_inner_div {
+  display: flex;
+  align-items: center;
+}
+
+.urm_icon_div {
+  display: none;
+}
+
+.urm_icon_div .role_edit {
+  margin-right: 0.5rem;
+}
+
+.user_roles .user_role:hover .urm_icon_div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.urm_Color_Picker_Wrapper {
+  position: sticky;
+  bottom: 0;
+  z-index: 50;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-bottom: 0.25rem;
+}
+
+.urm_action_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 1rem;
+}
+
+.urm_action_detail_div {
+  background-color: #ffffff;
+  display: none;
+  flex-direction: column;
+  border-radius: 8px;
+  margin-top: 0.5rem;
+  padding: 1rem;
+}
+
+.urm_action_detail_div .user_role_name {
+  border: none;
+  margin-left: 0.5rem;
+  margin-right: 0.5rem;
+  border-bottom: 1px solid;
+  flex-grow: 1;
+}
+
+.Role_name {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+#color_code {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 1rem;
+  max-height: 80px;
+  align-items: center;
+}
+
+.pick_color {
+  padding: 3px;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  margin: 0.25rem;
+}
+
+.pick_color_bg {
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+}
+
+#color_picker_input {
+  opacity: 0;
+  visibility: hidden;
+  top: 0;
+}
+
+.permission_container {
+  height: calc(100vh - var(--header-height) - var(--urm-label-height) - var(--urm-label-margin) - var(--breadcrumb-height) - var(--content-outter-padding) - var(--content-padding) - var(--breadcrumb-tab-menu-height));
+  display: flex;
+  flex-direction: column;
+  background-color: #fafafa;
+  border-color: #c1c1c1;
+  border-radius: 8px;
+  padding-left: 16px;
+  padding-right: 16px;
+  padding-bottom: 12px;
+}
+
+#permissionAccordion {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.permissionblur {
+  opacity: 0.2;
+}
+
+.permission_div_wrapper {
+  margin: 0.35rem 0;
+}
+
+.permission_div_wrapper.noborder {
+  border: none;
+}
+
+.permission_div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.inner_div {
+  width: 130px;
+  display: inline-block;
+}
+
+.permission_div[aria-expanded=true] .unfold_icon,
+.permission_div[aria-expanded=false] .fold_icon {
+  display: block;
+}
+
+.permission_div[aria-expanded=false] .unfold_icon,
+.permission_div[aria-expanded=true] .fold_icon {
+  display: none;
+}
+
+.sub_module {
+  background-color: #e6e6e6;
+  border-color: #c1c1c1;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+}
+
+.sub_module_name {
+  flex-grow: 1;
+}
+
+.sub_module_name label {
+  width: 100%;
+  padding-left: 0.5rem;
+  margin-bottom: 0;
+}
+
+.save_btn {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin-top: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.tooltipbox_wrapper {
+  display: none;
+  flex-wrap: wrap;
+  position: absolute;
+  background-color: #fdfdfd;
+  border: 1px solid #d0d0d0;
+  border-radius: 8px;
+  z-index: 50;
+}
+
+.tooltipbox {
+  position: relative;
+  padding: 6px;
+}/*# sourceMappingURL=role-management.css.map */

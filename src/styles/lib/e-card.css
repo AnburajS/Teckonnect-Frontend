@@ -1,0 +1,1045 @@
+/**** E-Cards Page ****/
+.eep-inner-tasks-div #accordion .card-header a,
+.eep-inner-tasks-div #Templateaccordion .card-header a {
+  display: block;
+  text-align: left;
+  border-radius: 15px 15px 0px 0px;
+  padding: 15px;
+  color: #d8d8d8;
+  font-size: 25px;
+  padding-left: 1.25rem;
+}
+
+.eep-inner-tasks-div #Templateaccordion .card-header div {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.eep-inner-tasks-div .eep-card {
+  border: transparent;
+  background-color: transparent;
+  margin: 1.5rem;
+}
+
+.eep-inner-tasks-div .eep-card .card-header {
+  padding: 0px;
+  background-color: transparent;
+  border-bottom: transparent;
+}
+
+.eep-inner-tasks-div .birthday-card a[aria-expanded='true'],
+.eep-inner-tasks-div .birthday-template-card div[aria-expanded='true'],
+.eep-inner-tasks-div .birthday-template-card div[aria-expanded='true'] a {
+  background-color: #e0e2cf;
+  color: #2c2c2c !important;
+}
+
+.eep-inner-tasks-div .birthday-card #collapseBirthday.collapse.show,
+.eep-inner-tasks-div
+  .birthday-template-card
+  #collapseBirthdayTemplate.collapse.show {
+  background-color: #e0e2cf;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.eep-inner-tasks-div .anniversary-card a[aria-expanded='true'],
+.eep-inner-tasks-div .anniversary-template-card div[aria-expanded='true'],
+.eep-inner-tasks-div .anniversary-template-card div[aria-expanded='true'] a {
+  background-color: #bdd8e3;
+  color: #2c2c2c !important;
+}
+
+.eep-inner-tasks-div .anniversary-card #collapseAnniversary.collapse.show,
+.eep-inner-tasks-div
+  .anniversary-template-card
+  #collapseAnniversaryTemplate.collapse.show {
+  background-color: #bdd8e3;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.eep-inner-tasks-div .appreciation-card a[aria-expanded='true'],
+.eep-inner-tasks-div .appreciation-template-card div[aria-expanded='true'],
+.eep-inner-tasks-div .appreciation-template-card div[aria-expanded='true'] a {
+  background-color: #f5dec8;
+  color: #2c2c2c !important;
+}
+
+.eep-inner-tasks-div .appreciation-card #collapseAppreciation.collapse.show,
+.eep-inner-tasks-div
+  .appreciation-template-card
+  #collapseAppreciationTemplate.collapse.show {
+  background-color: #f5dec8;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.eep-inner-tasks-div .seasonal-card a[aria-expanded='true'],
+.eep-inner-tasks-div .seasonal-template-card div[aria-expanded='true'],
+.eep-inner-tasks-div .seasonal-template-card div[aria-expanded='true'] a {
+  background-color: #e3edd0;
+  color: #2c2c2c !important;
+}
+
+.eep-inner-tasks-div .seasonal-card #collapseSeason.collapse.show,
+.eep-inner-tasks-div
+  .seasonal-template-card
+  #collapseSeasonTemplate.collapse.show {
+  background-color: #e3edd0;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.add_temp_img {
+  border-radius: 20px;
+  background: #e6e6e6 0% 0% no-repeat padding-box;
+  mix-blend-mode: multiply;
+  width: 100%;
+}
+
+.parent_list_group {
+  position: absolute;
+  z-index: 1051;
+  width: 100%;
+}
+
+.child_list_group {
+  max-height: 150px;
+  overflow-y: auto;
+  cursor: pointer;
+}
+
+@media (min-width: 768px) {
+  .eep-inner-tasks-div .modal-dialog {
+    max-width: 700px;
+  }
+}
+@media (min-width: 1024px) {
+  .eep-inner-tasks-div .modal-dialog {
+    max-width: 900px;
+  }
+}
+@media (min-width: 1200px) {
+  .eep-inner-tasks-div .modal-dialog {
+    max-width: 1100px;
+  }
+}
+@media (min-width: 1366px) {
+  .eep-inner-tasks-div .modal-dialog {
+    max-width: 1250px;
+  }
+}
+.delete_year {
+  position: absolute;
+  right: 12px;
+  width: 25px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+/**** E-Cards Page END ****/
+/**** E-card plus image style ****/
+.n_card_add_col_inner {
+  border-radius: 20px;
+  text-align: center;
+  padding: 5px;
+  cursor: pointer;
+  height: 100%;
+  /* background: #E6E6E6 0% 0% no-repeat padding-box;
+      mix-blend-mode: multiply; */
+}
+
+.n_card_add_col {
+  height: 100%;
+}
+
+.n_card_add_col .outter {
+  border-radius: 20px;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.n_card_add_col .outter .plus_white_img {
+  background-color: #a8a9a6;
+  padding: 30px;
+  border-radius: 50%;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
+@media (max-width: 900px) {
+  .n_card_add_col .outter .plus_white_img {
+    padding: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .n_card_add_col .outter .plus_white_img {
+    padding: 10px;
+  }
+}
+@media (max-width: 440px) {
+  .n_card_add_col .outter .plus_white_img {
+    padding: 25px;
+  }
+}
+/**** E-card plus image style ****/
+/**** Templates Page START ****/
+.birthday-card-bg {
+  background: rgba(219, 221, 201, 0.6470588235) 0% 0% !important;
+}
+
+.eCardSettingWrapper {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: stretch;
+}
+
+.anniversary-card-bg {
+  background: rgba(189, 216, 227, 0.4509803922) 0% 0% !important;
+}
+
+.appreciation-card-bg {
+  background-color: #f5dec8 !important;
+}
+
+.seasonal-card-bg {
+  background-color: #e3edd0 !important;
+}
+
+.eep-inner-tasks-div .eep-card .card-header:hover {
+  cursor: pointer;
+}
+
+.templates_container .carousel:hover {
+  cursor: grab;
+}
+
+.templates_container .carousel:active {
+  cursor: grabbing;
+}
+
+.templates_card_whole_div .Portfolio {
+  float: left;
+  width: 100%;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+  animation: winanim 0.5s;
+  backface-visibility: visible;
+}
+
+.templates_card_whole_div .Portfolio img.card-img {
+  border-radius: 20px;
+  background-color: transparent;
+  min-height: 182px;
+  max-height: 200px;
+}
+
+.templates_card_whole_div
+  #showall
+  .Portfolio:hover
+  img.card-img:not(.c_selected),
+.templates_card_whole_div
+  .showall
+  .Portfolio:hover
+  img.card-img:not(.c_selected) {
+  transition: transform 0.2s;
+  transform: scale(1.1);
+}
+
+.templates_card_whole_div .Portfolio img.card-img.c_selected {
+  padding: 0px;
+  border: none;
+}
+
+.templates_card_whole_div .Portfolio img.card-img:hover {
+  box-shadow: 0px 10px 33px rgba(0, 0, 0, 0.1137254902);
+}
+
+.templates_card_whole_div .delete_template_div {
+  padding: 5px;
+  text-align: center;
+  position: absolute;
+  bottom: 5px;
+  right: 15px;
+}
+
+.templates_message_div.templates_card_whole_div .delete_template_div {
+  bottom: 0px;
+  right: 15px;
+}
+
+.templates_card_whole_div .delete_template_div img {
+  display: none;
+}
+
+.templates_card_whole_div .Portfolio:hover .delete_template_div img {
+  display: block;
+}
+
+.templates_card_whole_div .nav li .nav-link {
+  margin: 5px;
+  padding: 8px 35px;
+  font-size: 16px;
+  color: #606060;
+  transition-duration: 0.4s;
+  border-radius: 2rem !important;
+  border: 1px solid #dbdbdb;
+  background-color: transparent;
+}
+
+.templates_card_whole_div .nav .nav-link:hover {
+  color: #ffffff !important;
+  background-color: #002f47 !important;
+}
+
+.templates_card_whole_div .nav .active {
+  color: #ffffff !important;
+  background-color: #588e21 !important;
+  border: none;
+}
+
+@keyframes winanim {
+  0% {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  50% {
+    opacity: 1;
+  }
+}
+.div_msgData {
+  background-color: #f0efef;
+  padding: 10px;
+  color: #2c2c2c;
+  border-radius: 10px;
+}
+
+.div_msgData.m_scheduled {
+  background-color: #646464;
+  color: #ffffff;
+}
+
+.div_msgData p {
+  min-height: 75px;
+  overflow: hidden;
+  max-height: 75px;
+  margin-bottom: 0px;
+}
+
+.birthday-template-card div.collapsed a.setting_icon:last-child,
+.anniversary-template-card div.collapsed a.setting_icon:last-child,
+.appreciation-template-card div.collapsed a.setting_icon:last-child,
+.seasonal-template-card div.collapsed a.setting_icon:last-child {
+  display: none !important;
+}
+
+/**** Templates Page END ****/
+/**** Templates Setting Page START ****/
+textarea#createNewMessage {
+  border: 1px solid #e8e8e8 !important;
+}
+
+.trigger-btn {
+  display: inline-block;
+  margin: 100px auto;
+}
+
+.templates_time_div #timepicker {
+  border-radius: 2rem !important;
+  border: 1px solid #cccccc !important;
+  margin: 0 auto;
+  padding: 15px;
+  padding-left: 25px;
+  font-size: 16px;
+  color: #646464;
+  letter-spacing: 1px;
+}
+
+.templates_time_div .gj-timepicker-md [role='right-icon'] {
+  cursor: pointer;
+  position: absolute;
+  right: 0;
+  top: 0;
+  font-size: 30px;
+  padding: 4px;
+  color: #646464;
+}
+
+.templates_time_div .form-control:focus {
+  box-shadow: none;
+}
+
+.card-img_div:hover,
+.div_msgData:hover {
+  cursor: pointer;
+}
+
+.card-img_div_selected {
+  background-color: #000000;
+  border-radius: 25px;
+}
+
+.card-img_div_selected img.card-img {
+  opacity: 0.7;
+}
+
+.gj-picker.timepicker {
+  border-radius: 15px;
+}
+
+.gj-picker.timepicker [role='header'] {
+  border-radius: 15px 15px 0px 0px;
+}
+
+.gj-picker-md .arrow-end {
+  border: 16px solid #4b5568 !important;
+}
+
+.gj-picker-md .arrow-begin,
+.gj-picker-md [role='body'] [role='arrow'] {
+  background-color: #4b5568 !important;
+}
+
+.gj-picker-md [role='header'] {
+  background: #588e21 !important;
+}
+
+.gj-picker-md [role='footer'] button.gj-button-md {
+  color: #4b5568 !important;
+  border-radius: 20px;
+}
+
+.eep-dropdown-divider {
+  border-top: 1px solid #707070;
+}
+
+.eep-dropdown-divider-sett {
+  border-top: 1px solid #dbdbdb;
+  margin: 20px 0;
+}
+
+#addMoreYearModal .modal-content #addMoreYearTemplate {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 33px rgba(0, 0, 0, 0.1137254902);
+  border: 1px solid #d8d8d8;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#addMoreYearModal .addMoreYearTemplate_div .carousel .carousel-inner img {
+  border-radius: 0px;
+  width: 100%;
+}
+
+#addMoreYearModal .modal-content .addyearCompose_div .panel {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+}
+
+#addMoreYearModal .addyearCompose_div .compose_text {
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #588e21;
+  position: relative;
+}
+
+#addMoreYearModal .addyearCompose_div .compose_text img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 55%;
+}
+
+#addMoreYearTemplate .prevTempImage_div {
+  overflow: hidden;
+}
+
+/**** Templates Setting Page END ****/
+/**** Inbox Page START ****/
+.eep_select_div .select2-container--default .select2-selection--single,
+.eep_select_div .select2-container--default .select2-selection--single:focus {
+  border: transparent;
+  outline: none;
+  color: #2b2b2b;
+  font-weight: 600;
+}
+
+.eep_select_div
+  .select2-container
+  .select2-selection--single
+  .select2-selection__rendered {
+  padding-left: 40%;
+}
+
+.eep-templates-setting-title
+  .eep_select_div
+  span.select2.select2-container.select2-container--default {
+  width: inherit !important;
+}
+
+.eep-select2-dropdown {
+  padding: 10px 0px;
+  background-color: #fdfdfd !important;
+  border-radius: 10px !important;
+  opacity: 1;
+  backdrop-filter: blur(35px);
+  -webkit-backdrop-filter: blur(35px);
+  border: 1px solid #aaa !important;
+  min-width: 12rem !important;
+  right: -60px !important;
+  left: auto !important;
+}
+
+.eep-select2-dropdown .select2-results__option {
+  color: #050505;
+}
+
+.select2-container--default
+  .eep-select2-dropdown
+  .select2-results__option[aria-selected='true'],
+.select2-container--default
+  .eep-select2-dropdown
+  .select2-results__option--highlighted[aria-selected] {
+  background-color: transparent;
+  font-family: 'helveticaneueregular' !important;
+  color: #2c2c2c !important;
+}
+
+.eep-select2-dropdown .select2-results > .select2-results__options {
+  max-height: 300px !important;
+}
+
+#accordionInbox .card {
+  border: none;
+}
+
+#accordionInbox .card-header {
+  background-color: transparent;
+  border-top: none;
+  border-bottom: none;
+}
+
+#accordionInbox .card:first-child .card-header a {
+  border-top: none;
+}
+
+#accordionInbox .card-header a {
+  display: block;
+  text-align: left;
+  border-radius: 0px;
+  padding: 15px;
+  font-size: 25px;
+  padding-left: 0px;
+  border-top: 1px solid #dedede;
+}
+
+.carousel-inbox-tooltip.bs-tooltip-right.show {
+  margin-left: -10px;
+  margin-top: -30px;
+}
+
+.carousel-inbox-tooltip .arrow {
+  display: none !important;
+}
+
+.carousel-inbox-tooltip .tooltip-inner {
+  color: #2c2c2c !important;
+  padding: 0.25rem 1.5rem !important;
+  background-color: #cbc9c9 !important;
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1607843137) !important;
+  border-radius: 15px !important;
+  backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(30px);
+}
+
+.item-box-blog-heading h5 {
+  color: #1076b4;
+}
+
+.item_blog_like_a i {
+  font-size: 24px;
+}
+
+.item_blog_like_a i.far {
+  color: #cccccc;
+}
+
+.item_blog_like_a i.fas {
+  color: #ff3636;
+}
+
+.carousel-inbox .item-carousel-blog-block {
+  outline: medium none;
+  padding: 15px;
+}
+
+.carousel-inbox .item-box-blog {
+  border: 1px solid #d8d8d8;
+  z-index: 4;
+  border-radius: 15px;
+  box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.1215686275);
+  height: 100%;
+}
+
+.carousel-inbox .item-box-blog-image {
+  position: relative;
+}
+
+.carousel-inbox .item-box-blog-image figure img {
+  width: 100%;
+  height: auto;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.carousel-inbox .item-box-blog-new {
+  position: absolute;
+  z-index: 5;
+  top: 15px;
+  right: 15px;
+  background-color: transparent;
+}
+
+.carousel-inbox .item-box-blog-body {
+  padding: 10px;
+}
+
+.carousel-inbox .item-heading-blog a h5 {
+  margin: 0;
+  line-height: 1;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.carousel-inbox .item-box-blog-heading a {
+  text-decoration: none;
+}
+
+.carousel-inbox .item-box-blog-data p {
+  font-size: 13px;
+}
+
+.carousel-inbox .item-box-blog-data p i {
+  font-size: 12px;
+}
+
+.carousel-inbox .item-box-blog-text {
+  max-height: 100px;
+  overflow: hidden;
+}
+
+.blog-list-all.carousel-inbox .item-box-blog-text {
+  max-height: inherit;
+}
+
+.blog-all .btn:focus {
+  box-shadow: none !important;
+}
+
+.eep-inner-inbox-div .card .card-header h2 a[aria-expanded='true'] {
+  color: #2c2c2c;
+}
+
+.eep-inner-inbox-div .card .card-header h2 a[aria-expanded='false'] {
+  color: #858796;
+}
+
+.carousel-inbox .col-md-4,
+.blog-list-all .col-md-4 {
+  transition-duration: 0.4s;
+  animation: winanim 0.5s;
+  backface-visibility: visible;
+}
+
+#inbox-accordion .carousel-inbox:hover {
+  cursor: grab;
+}
+
+#inbox-accordion .carousel-inbox:active {
+  cursor: grabbing;
+}
+
+@media (min-width: 768px) {
+  .carousel-inbox .carousel-item:not(.active):last-child {
+    display: block;
+    margin-right: -99%;
+    opacity: 1000;
+    float: right;
+    transition: transform 0s ease-in-out;
+  }
+  .carousel-inbox .carousel-item:not(.active):first-child {
+    display: block;
+    z-index: 1000;
+    margin-left: -99%;
+    transition: transform 0s ease-in-out;
+  }
+  .carousel-inbox .carousel-item.active:first-child {
+    padding-right: 1.5rem;
+  }
+  .carousel-inbox .carousel-item.active:last-child {
+    padding-left: 1.5rem;
+  }
+}
+@media (min-width: 1280px) {
+  .eep_select {
+    text-indent: 40%;
+  }
+}
+@media (min-width: 1024px) {
+  .eep_select {
+    text-indent: 25%;
+  }
+}
+/**** Inbox Page END ****/
+/**** E-Cards Page modal START ****/
+.eep-inner-tasks-div .modal-content {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 33px rgba(0, 0, 0, 0.1137254902);
+  border-radius: 20px;
+}
+
+#ComposeCardModal .modal-content #CardTemplate {
+  background-color: #ffffff;
+  box-shadow: 0px 10px 33px rgba(0, 0, 0, 0.1137254902);
+  border: 1px solid #d8d8d8;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+#ComposeCardModal .birthdayTemplate_div .carousel .carousel-inner img {
+  border-radius: 0px;
+  width: 100%;
+}
+
+#ComposeCardModal .modal-content .Compose_div .panel {
+  background-color: #f4f4f4;
+  border-radius: 20px;
+}
+
+#ComposeCardModal .Compose_div .compose_text {
+  text-align: center;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-color: #588e21;
+  position: relative;
+}
+
+#ComposeCardModal .Compose_div .compose_text img {
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 55%;
+}
+
+.messagecompose_div input:hover,
+.messagecompose_div input:focus,
+.messagecompose_div input:active {
+  box-shadow: none !important;
+}
+
+.tagsinput {
+  display: flex;
+  flex-wrap: wrap;
+  background: #fff;
+  font-family: sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #556270;
+  padding: 5px 5px 0;
+  border: 1px solid #e6e6e6;
+  border-radius: 2px;
+}
+
+.tagsinput .tag-input {
+  background: 0 0;
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 5px;
+  border: 0;
+  margin: 0 5px 5px 0;
+}
+
+.yourmessage_div button {
+  border: 1px solid #c9c9c9;
+  background-color: transparent;
+  color: #606060;
+  letter-spacing: 0px;
+  font-size: 14px;
+  border-radius: 30px;
+  padding: 10px 35px;
+}
+
+.yourmessage_div button:hover,
+.yourmessage_div button:focus,
+.yourmessage_div button:active {
+  color: #606060;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.yourmessage_div button.selected {
+  background-color: #464646 !important;
+  color: #ffffff;
+}
+
+.ccMessageAdd i,
+.ccMessageCancel i {
+  right: 5px;
+  position: absolute;
+}
+
+button.ccMessageAdd:hover {
+  background-color: #f4f4f4 !important;
+}
+
+#ccEmail_tag:hover,
+#ccEmail_tag:focus,
+#ccEmail_tag:active {
+  outline: none !important;
+}
+
+.messagecompose_div .tagsinput .tag {
+  color: #606060;
+  background-color: #ebebeb;
+  border-radius: 30px;
+  padding: 5px 30px 5px 15px;
+}
+
+.formaction_div .btn:focus {
+  box-shadow: none;
+}
+
+.formaction_div .btn[data-dismiss='modal'] {
+  color: #606060;
+  font-size: 20px;
+}
+
+.formaction_div .btn.btn-success {
+  background-color: #ebebeb !important;
+  color: #c9c9c9 !important;
+  border: 1px solid #c9c9c9 !important;
+  border-radius: 40px;
+  padding: 10px 38px;
+  letter-spacing: 1.6px;
+  text-transform: uppercase;
+}
+
+.formaction_div .btn.btn-success.ccValidData {
+  background-color: #4da77a !important;
+  color: #ffffff !important;
+  text-transform: uppercase;
+}
+
+.yourmessage_div .ccNewMessage {
+  border-radius: 30px 30px 30px 30px !important;
+  text-align: left;
+  border: 1px solid #c9c9c9 !important;
+}
+
+.yourmessage_div .input-group-append {
+  margin-left: -35px;
+}
+
+.yourmessage_div .input-group-append button {
+  border: none;
+  background-color: transparent !important;
+  padding: 0px !important;
+}
+
+.yourmessage_div .input-group-append i {
+  font-size: 30px;
+  color: #c9c9c9;
+}
+
+.yourmessage_inner_div {
+  border-radius: 10px;
+}
+
+.imagecompose_div .carousel-inner .carousel-caption {
+  right: 10%;
+  left: 10%;
+  color: #000000;
+  text-align: left;
+}
+
+.imagecompose_div .carousel-inner .carousel-caption h4 {
+  text-transform: uppercase;
+}
+
+.messagecompose_div .message h4 {
+  letter-spacing: 2px;
+}
+
+.messagecompose_div .form-control,
+.messagecompose_div .tagsinput {
+  border-radius: 0.5rem !important;
+}
+
+.messagecompose_div .tagsinput div input {
+  line-height: 18px;
+}
+
+.messagecompose_div .form-control:disabled,
+.messagecompose_div .form-control[readonly] {
+  background-color: #f4f4f4;
+  border-radius: 25px !important;
+}
+
+.toEmail_div ul:hover,
+.ccEmail_divn ul:hover {
+  cursor: pointer;
+}
+
+.carousel-control_div span {
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.modal.show .carousel .carousel-control i {
+  color: #c9c9c9;
+  font-size: 18px;
+}
+
+.cc_color {
+  color: #2c2c2c !important;
+}
+
+#recepientName {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+button.close:hover,
+button.close:active,
+button.close:focus {
+  outline: none;
+}
+
+.messagecompose_div .list-group-item {
+  padding: 0.35rem 1.25rem;
+}
+
+.carousel-message_div .carousel-caption {
+  position: initial;
+  text-align: justify;
+}
+
+@media (max-width: 1024px) {
+  .eep-inner-tasks-div #successModal .modal-dialog.w-50 {
+    width: inherit !important;
+  }
+}
+.successright_div_inner {
+  border: 1px solid #707070;
+}
+
+.successright_div_inner h4,
+.failureright_div_inner h4 {
+  color: #464646;
+  font-size: 40px;
+  font-family: 'helveticaneueregular';
+}
+
+.okaybtn {
+  background-color: #ed6c1d;
+  border-radius: 25px;
+  color: #ffffff;
+  padding: 5px 20px;
+  border-color: transparent;
+}
+
+.okaybtn:focus,
+.okaybtn:active {
+  outline: transparent;
+}
+
+.deliveredmsg {
+  color: #de1717;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.failureright_div_inner {
+  border: 1px solid #707070;
+}
+
+.message .row.form-group,
+.eep-certificate-compose-div .row.form-group {
+  display: flex !important;
+}
+
+/**** E-Cards Page modal END ****/
+.eep-templates-setting-card .Portfolio.ecar_add_image {
+  min-height: 170px;
+}
+
+@media (min-width: 1400px) {
+  .eep-templates-setting-card
+    .n_card_add_col
+    .outter
+    .plus_white_img.ecard_template_plus {
+    padding: 25px;
+    width: 30% !important;
+  }
+}
+.Portfolio.sample_div {
+  width: 100%;
+}
+
+.sample_div_inner {
+  background-color: #e6e6e6;
+  text-align: center;
+  padding: 4px;
+  border-radius: 20px;
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.Portfolio .samplev {
+  background-color: #e6e6e6;
+  text-align: center;
+  padding: 10px;
+  border-radius: 20px;
+  position: relative;
+}
+
+.Portfolio .sample_img {
+  padding: 15px;
+  background-color: #a8a9a6;
+  border-radius: 50%;
+  position: relative;
+}
+
+@media (max-width: 900px) {
+  .n_card_add_col .outter .plus_white_img {
+    padding: 15px;
+  }
+}
+@media (max-width: 768px) {
+  .n_card_add_col .outter .plus_white_img {
+    padding: 10px;
+  }
+}
+@media (max-width: 440px) {
+  .n_card_add_col .outter .plus_white_img {
+    padding: 25px;
+  }
+} /*# sourceMappingURL=e-card.css.map */

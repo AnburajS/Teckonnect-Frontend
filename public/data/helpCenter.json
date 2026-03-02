@@ -1,0 +1,107 @@
+[
+  {
+    "title": "Admin Panel",
+    "accordions": [
+      {
+        "header": " How can I manage user roles and permissions?",
+        "body": "Navigate to the Admin Panel, then go to Role Management. Select the role you want to manage, such as Employee, Manager, HR, or Admin. From there, you can define what each role can view or edit."
+      },
+      {
+        "header": "What features are available in the Admin Panel?",
+        "body": "The Admin Panel includes several features to help manage and configure the portal. These features are:",
+        "subBody": "Portal Settings,Role Management,User Management,Department Master,Branch Master,Point Config,Wallet,Hashtag Library"
+      },
+      {
+        "header": "Is there an option to download or upload bulk data? ",
+        "body": "Yes, there is an option to download bulk data for several features, including Department Master, User Management, Branch Master, Point Config, and Wallet. Additionally, bulk upload is available for User Management."
+      }
+    ]
+  },
+  {
+    "title": "Recognize",
+    "accordions": [
+      {
+        "header": "Can recognition be private?",
+        "body": "Yes, recognition can be either public or private. The admin or user can choose the visibility of the recognition. If the admin selects the 'Recognize and Share' option while assigning the recognition, it will be posted publicly on the EnliteU Wall. If the 'Recognize' option is selected, only the awarded employee will be notified, and the recognition will remain private. Additionally, the employee has the option to share the recognition on the EnliteU Wall. If the admin initially selects 'Recognize' and shares it with the employee, the employee will have a one-time privilege to 'Share' it on the EnliteU Wall"
+      },
+      {
+        "header": "How can employees give recognition to their peers?",
+        "body": "Employees can give recognition through the platform’s interface by selecting a recognition type (e.g., 'Kudos,' 'Thank You,' or a value-based acknowledgment). They can write a personalized message or choose from predefined categories. Once submitted, the recognition will be shared within the organization based on the selected visibility settings."
+      },
+      {
+        "header": "How are rewards earned through the Recognize module? ",
+        "body": " Employees earn rewards by receiving recognition from peers, managers, or the organization. This recognition can come in the form of points, badges, or virtual tokens. Over time, these can be redeemed for tangible rewards such as gift cards, additional vacation days, or other incentives, depending on the company’s reward catalog."
+      }
+    ]
+  },
+  {
+    "title": "Engage",
+    "accordions": [
+      {
+        "header": "How often should employee engagement surveys be conducted?",
+        "body": "Engagement surveys are typically conducted on a quarterly, bi-annual, or annual basis. For more frequent insights, organizations can use pulse surveys—short, focused questionnaires sent monthly or as needed – to capture real-time feedback and monitor engagement trends."
+      },
+      {
+        "header": "How can employees give feedback in the Engage module? ",
+        "body": "Employees can share feedback through surveys, one-on-one meetings, or dedicated feedback forms available within the platform. The Engage module also supports anonymous feedback, ensuring employees feel safe and comfortable sharing honest opinions. ",
+        "subBody": "Navigation: Engage → Feedback → Display as (Anonymous/ user)"
+      },
+      {
+        "header": "How can I participate in employee engagement surveys through the Engage module?",
+        "body": " You’ll receive a notification or invitation from the system when a survey becomes available. Simply click the link to access and complete the survey online. The questions typically cover topics such as job satisfaction, work environment, leadership, and overall engagement."
+      }
+    ]
+  },
+  {
+    "title": "Rewards",
+    "accordions": [
+      {
+        "header": "How do employees earn rewards?",
+        "body": "Employees can earn rewards in several ways – by receiving recognition, achieving performance goals, participating in surveys or engagement activities, or reaching key milestones (like work anniversaries or project completions). Rewards may also be linked to peer recognition or accomplishments approved by managers."
+      },
+      {
+        "header": "How do employees redeem their rewards?",
+        "body": " Employees can redeem their earned rewards through an online catalog or platform integrated into the Rewards module. The catalog offers a variety of items or experiences that can be claimed using XP or credits accumulated through recognition, goal achievements, or engagement activities."
+      },
+      {
+        "header": "Can employees choose their own rewards?",
+        "body": "Yes, the Rewards module allows employees to browse and select rewards from a catalog based on the points they’ve accumulated. This level of personalization enhances the perceived value of the reward and encourages continued engagement."
+      }
+    ]
+  },
+  {
+    "title": "EnliteU Wall",
+    "accordions": [
+      {
+        "header": "Who can post on the EnliteU Wall?",
+        "body": "Generally, all employees within the organization can post content on the EnliteU Wall. However, some organizations may limit posting privileges for certain types of content—like company announcements or important updates—to specific roles, such as managers or HR."
+      },
+      {
+        "header": "Can employees like or comment on posts?",
+        "body": "Yes, employees can typically like, comment on, or share posts within the EnliteU Wall module. This feature fosters greater interaction and engagement, allowing employees to connect and recognize each other’s contributions."
+      },
+
+      {
+        "header": "Is the content on the EnliteU Wall visible to all employees?",
+        "body": "The visibility of posts on the EnliteU Wall can be customized based on the organization’s preferences. It can be set to be visible to all employees, specific teams, or departments. Some organizations may also allow private groups or settings for posts that should remain restricted or not publicly visible."
+      }
+    ]
+  },
+  {
+    "title": "Dashboard",
+    "accordions": [
+      {
+        "header": "Is the dashboard view the same for all employees?",
+        "body": "No, dashboard views can vary based on roles. For example, managers may see the 'Insight Hub' in addition to other sections, while employees will see only 'My Dashboard' and 'Hall of Fame'. The dashboard can also be customized as required for an organization."
+      },
+      {
+        "header": "How often is the dashboard data updated?",
+        "body": "The dashboard data is mostly updated in real-time or at regular intervals, such as every few minutes. Some items, like 'Happenings', may refresh weekly."
+      },
+      {
+        "header": "How do I view my pending tasks or approvals from the dashboard?",
+        "body": "Look for the “Approval Pending Requests” widget. It lists all the pending approvals requiring your attention."
+      }
+    ]
+  }
+]

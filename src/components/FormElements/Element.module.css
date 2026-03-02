@@ -1,0 +1,8 @@
+label.require:after {
+  content: "*";
+  color: red;
+}
+
+.formControl {
+  height: auto;
+}/*# sourceMappingURL=Element.module.css.map */

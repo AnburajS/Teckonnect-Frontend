@@ -1,0 +1,94 @@
+.div-ql-container .ql-container {
+  min-height: 250px !important;
+  background-color: #ffffff !important;
+  border-radius: 0px 0px 6px 6px !important;
+}
+.div-ql-container .ql-toolbar.ql-snow {
+  background-color: #ffffff !important;
+  border-radius: 6px 6px 0px 0px !important;
+}
+
+.input-form .form-control {
+  border: 1px solid #ced4da !important;
+}
+
+.col-border-radius {
+  border-radius: 8px !important;
+}
+.text-decoration-underline {
+  text-decoration: underline !important;
+}
+
+.button-border-9d9d9d {
+  border: 0.5px solid #9d9d9d !important;
+}
+
+.dropdown-border-ced4da {
+  border: 1px solid #ced4da !important;
+}
+
+.div-select-template {
+  display: flex;
+  flex-direction: column;
+  height: 70vh !important;
+}
+
+.trigger-email-react-quill .ql-container.ql-snow {
+  border: none !important;
+}
+
+.trigger-error {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  padding-bottom: 4px !important;
+  color: #f24f4f;
+}
+/* ===== React Quill – HARD RESET ===== */
+
+.div-ql-container {
+  margin-bottom: 24px;
+}
+
+/* Toolbar MUST be on top */
+.div-ql-container .ql-toolbar {
+  border: 1px solid #ced4da !important;
+  border-bottom: none !important;
+  border-radius: 6px 6px 0 0 !important;
+  background: #fff !important;
+}
+
+/* Editor box */
+.div-ql-container .ql-container {
+  border: 1px solid #ced4da !important;
+  border-radius: 0 0 6px 6px !important;
+  background: #fff !important;
+  height: 220px !important;
+}
+
+/* Editor content */
+.div-ql-container .ql-editor {
+  min-height: 180px;
+  padding: 12px;
+}
+
+/* 🔥 FORCE correct order */
+.ql-toolbar {
+  order: 1;
+}
+.ql-container {
+  order: 2;
+}
+
+/* Prevent floating / collapsing */
+.ql-toolbar,
+.ql-container {
+  position: relative !important;
+  display: block !important;
+}
+
+/* Fix Bootstrap interference */
+.row .ql-toolbar,
+.row .ql-container {
+  max-width: 100%;
+}

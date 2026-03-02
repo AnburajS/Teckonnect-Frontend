@@ -1,0 +1,80 @@
+[
+    {
+        "birtdaycards": [
+            {
+                "image": "birthday/Birthday-1.jpg",
+                "name": "Birthday-1"
+            },
+            {
+                "image": "birthday/Birthday-2.jpg",
+                "name": "Birthday-2"
+            },
+            {
+                "image": "birthday/Birthday-3.jpg",
+                "name": "Birthday-3"
+            },
+            {
+                "image": "birthday/Birthday-4.jpg",
+                "name": "Birthday-4"
+            },
+            {
+                "image": "birthday/Birthday-5.jpg",
+                "name": "Birthday-5"
+            },
+            {
+                "image": "birthday/Birthday-6.jpg",
+                "name": "Birthday-6"
+            }
+        ]
+    },
+    {
+        "anniversarycards": [
+            {
+                "image": "anniversary/Anniversary-1.jpg",
+                "name": "Anniversary-1"
+            },
+            {
+                "image": "anniversary/Anniversary-2.jpg",
+                "name": "Anniversary-2"
+            },
+            {
+                "image": "anniversary/Anniversary-3.jpg",
+                "name": "Anniversary-3"
+            }
+        ]
+    },
+    {
+        "appreciationcards": [
+            {},
+            {}
+        ]
+    },
+    {
+        "seasonalcards": [
+            {
+                "image": "seasonal/Greetings-1.jpg",
+                "name": "Anniversary-1"
+            },
+            {
+                "image": "seasonal/Greetings-2.jpg",
+                "name": "Anniversary-2"
+            },
+            {
+                "image": "seasonal/Greetings-3.jpg",
+                "name": "Anniversary-3"
+            },
+            {
+                "image": "seasonal/Greetings-4.jpg",
+                "name": "Anniversary-4"
+            },
+            {
+                "image": "seasonal/Greetings-5.jpg",
+                "name": "Anniversary-5"
+            },
+            {
+                "image": "seasonal/Greetings-6.jpg",
+                "name": "Anniversary-6"
+            }
+        ]
+    }
+]

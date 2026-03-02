@@ -1,0 +1,41 @@
+[
+    {
+        "BirthdayMessage": [
+            {
+                "message": "Many More Happy Returns of the Day"
+            },
+            {
+                "message": "Happy Birthday"
+            },
+            {
+                "message": "We wish you a very Happy Birthday"
+            }
+        ]
+    },
+    {
+        "AnniversaryMessage": [
+            {
+                "message": "Happy work anniversary!"
+            },
+            {
+                "message": "Happy Happy Happy.. work anniversary!"
+            },
+            {
+                "message": "We wish you a very Happy work anniversary!"
+            }
+        ]
+    },
+    {
+        "SeasonalMessage": [
+            {
+                "message": "Many More Happy Returns of the Day"
+            },
+            {
+                "message": "Happy Birthday"
+            },
+            {
+                "message": "We wish you a very Happy Birthday"
+            }
+        ]
+    }
+]

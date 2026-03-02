@@ -1,0 +1,67 @@
+.eep-progress {
+  width: 76px;
+  height: 76px;
+  background: none;
+  position: relative;
+  z-index: 0;
+}
+
+.eep-progress::after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  border: 5px solid #eee;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.eep-progress > span {
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  z-index: 1;
+}
+
+.eep-progress .eep-progress-left {
+  left: 0;
+}
+
+.eep-progress .eep-progress-bar {
+  width: 100%;
+  height: 100%;
+  background: none;
+  border-width: 5px;
+  border-style: solid;
+  position: absolute;
+  top: 0;
+}
+
+.eep-progress .eep-progress-left .eep-progress-bar {
+  left: 100%;
+  border-top-right-radius: 80px;
+  border-bottom-right-radius: 80px;
+  border-left: 0;
+  transform-origin: center left;
+}
+
+.eep-progress .eep-progress-right {
+  right: 0;
+}
+
+.eep-progress .eep-progress-right .eep-progress-bar {
+  left: -100%;
+  border-top-left-radius: 80px;
+  border-bottom-left-radius: 80px;
+  border-right: 0;
+  transform-origin: center right;
+}
+
+.eep-progress .eep-progress-value {
+  position: absolute;
+  top: 0;
+  left: 0;
+}/*# sourceMappingURL=eep-progress.css.map */

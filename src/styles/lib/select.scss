@@ -1,0 +1,117 @@
+.contact_number__dropdown-indicator,
+.select__dropdown-indicator {
+  padding: 9px !important;
+}
+
+.eep_select_common .select__multi-value {
+  background-color: #f2f2f2;
+  border: none;
+  border-radius: 15px;
+  padding: 5px 10px;
+}
+
+.eep_select_common .select__multi-value__remove {
+  background-color: unset !important;
+  padding: unset !important;
+}
+
+.eep_select_common .select__multi-value__label {
+  padding: unset !important;
+}
+
+.select__value-container--is-multi.select__value-container--has-value {
+  overflow-y: scroll;
+  scrollbar-width: none;
+  overflow-x: unset !important;
+  max-height: 72px;
+}
+
+.select__value-container--is-multi.select__value-container--has-value::-webkit-scrollbar {
+  display: none;
+}
+
+.eep_select_common.select__control,
+.contact_number__control {
+  border: none !important;
+  border-style: none !important;
+  border-radius: 0px !important;
+  // min-height: unset !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  //height: calc(1.5rem + 0.75rem + 2px);
+  height: unset;
+  // padding: 0.375rem 0.75rem;
+  border-radius: 0.5rem !important;
+}
+
+.select-with-bg .eep_select_common.select__control {
+  background-color: #f5f5f5 !important;
+}
+
+.select-with-bg .eep_select_common .select__multi-value {
+  border: 1px solid #cccccc !important;
+}
+
+.ccEmail_div .eep_select_common.select__control {
+  height: unset !important;
+}
+
+.contact_number__value-container {
+  min-width: 60px !important;
+}
+
+.eep_select_common.select__menu,
+.contact_number__menu {
+  box-shadow: none !important;
+  left: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+}
+
+.eep_select_common.select__menu-list,
+.contact_number__menu-list {
+  padding: 5px;
+  overflow-y: scroll !important;
+  -ms-overflow-style: none !important;
+  scrollbar-width: none !important;
+  z-index: 99;
+  background-color: #ffffff !important;
+  border: 1px solid #dddddd !important;
+  border-radius: 6px;
+}
+
+.eep_select_common.select__option--is-focused:not(.select__option--is-selected),
+.contact_number__option.contact_number__option--is-focused:not(
+    .contact_number__option--is-selected
+  ) {
+  background-color: #588e21 !important;
+  color: #ffffff;
+  border-radius: 7px;
+}
+
+.eep_select_common.select__option--is-selected,
+.contact_number__option.contact_number__option--is-selected {
+  background-color: #f4f4f4 !important;
+  color: #858796 !important;
+  border-radius: 7px;
+  margin: 4px 0px;
+}
+
+.eep_select_common.select__menu-list::-webkit-scrollbar,
+.contact_number__menu-list::-webkit-scrollbar {
+  display: none;
+}
+
+.select_bgwhite .eep_select_common.select__control {
+  background-color: #ffffff !important;
+}
+
+.eep_compose_inputs.select__indicators {
+  display: none;
+}
+// .eep_select_common_sort{
+//     min-height: 22px !important;
+//     max-height: 22px;
+// }

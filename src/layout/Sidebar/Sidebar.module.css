@@ -1,0 +1,30 @@
+/*** Breakpoints ***/
+#accordionSidebar {
+  position: relative;
+}
+
+.eep-navbar-newversion {
+  margin-right: 14px;
+}
+
+.menu-bg-theme {
+  background: transparent linear-gradient(180deg, #002d40 0%, #00090d 100%);
+}
+
+.profile-greet {
+  font-family: "helveticaneuethin" !important;
+}
+
+.nav-item .profile-nm {
+  text-align: left;
+}
+@media only screen and (min-width: 1240px) {
+  .nav-item .profile-nm {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+.toggled .eep-menu-icon-sidebar {
+  display: block !important;
+}/*# sourceMappingURL=Sidebar.module.css.map */

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="131.9" height="103.3" viewBox="0 0 131.9 103.3">
+  <g id="Forum-new" transform="translate(-73.3 -152.7)">
+    <g id="Group_2848" data-name="Group 2848">
+      <g id="Group_2846" data-name="Group 2846" opacity="0.75">
+        <path id="Path_2353" data-name="Path 2353" d="M193,229.6H79.5a6.231,6.231,0,0,1-6.2-6.2V158.9a6.231,6.231,0,0,1,6.2-6.2H193a6.231,6.231,0,0,1,6.2,6.2v64.5A6.167,6.167,0,0,1,193,229.6Z" fill="#b8b8b8"/>
+      </g>
+      <g id="Group_2847" data-name="Group 2847">
+        <path id="Path_2354" data-name="Path 2354" d="M199,235.6H85.5a6.231,6.231,0,0,1-6.2-6.2V164.9a6.231,6.231,0,0,1,6.2-6.2H199a6.231,6.231,0,0,1,6.2,6.2v64.5A6.167,6.167,0,0,1,199,235.6Z" fill="#ddd"/>
+      </g>
+    </g>
+    <path id="Path_2355" data-name="Path 2355" d="M185.3,229.1H99.2a11.865,11.865,0,0,1-11.9-11.9V177a11.865,11.865,0,0,1,11.9-11.9h86.2A11.865,11.865,0,0,1,197.3,177v40.2A12.08,12.08,0,0,1,185.3,229.1Z" fill="#d6d6d6"/>
+    <g id="Group_2850" data-name="Group 2850">
+      <g id="Group_2849" data-name="Group 2849">
+        <circle id="Ellipse_321" data-name="Ellipse 321" cx="9.9" cy="9.9" r="9.9" transform="translate(102.2 187.2)" fill="#ed8726"/>
+        <circle id="Ellipse_322" data-name="Ellipse 322" cx="9.9" cy="9.9" r="9.9" transform="translate(132.3 187.2)" fill="#ed8726"/>
+        <circle id="Ellipse_323" data-name="Ellipse 323" cx="9.9" cy="9.9" r="9.9" transform="translate(162.5 187.2)" fill="#ed8726"/>
+      </g>
+    </g>
+    <path id="Path_2356" data-name="Path 2356" d="M178,256l.5-21,12.9.1Z" fill="#cfcfcf"/>
+    <path id="Path_2357" data-name="Path 2357" d="M178,256l-25.4-21h25.8Z" fill="#b2b2b2"/>
+  </g>
+</svg>

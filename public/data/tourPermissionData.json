@@ -1,0 +1,178 @@
+[
+  {
+    "label": "My Dashboard",
+    "value": "myDashboard"
+  },
+  {
+    "label": "Rewards And Recognition",
+    "value": "rewardsAndRecognition"
+  },
+  {
+    "label": "Hall Of Fame",
+    "value": "hallOfFame"
+  },
+  {
+    "label": "Ecards",
+    "value": "ecards"
+  },
+  {
+    "label": "Ecard Inbox",
+    "value": "ecardInbox"
+  },
+  {
+    "label": "Ecard Template",
+    "value": "ecardTemplate"
+  },
+  {
+    "label": "Badges",
+    "value": "badges"
+  },
+  {
+    "label": "Create Badge",
+    "value": "createBadge"
+  },
+  {
+    "label": "My Badges",
+    "value": "myBadges"
+  },
+  {
+    "label": "Awards",
+    "value": "awards"
+  },
+  {
+    "label": "Create Award",
+    "value": "createAward"
+  },
+  {
+    "label": "My Awards",
+    "value": "myAwards"
+  },
+  {
+    "label": "Award NominatorView",
+    "value": "awardNominatorView"
+  },
+  {
+    "label": "Award Nomination",
+    "value": "awardNomination"
+  },
+  {
+    "label": "Award MyNominations",
+    "value": "awardMyNominations"
+  },
+  {
+    "label": "Award Approval",
+    "value": "awardApproval"
+  },
+  {
+    "label": "Award Manage",
+    "value": "awardManage"
+  },
+  {
+    "label": "Certificate",
+    "value": "certificate"
+  },
+  {
+    "label": "My Certificate",
+    "value": "myCertificate"
+  },
+  {
+    "label": "Library Badges",
+    "value": "libraryBadges"
+  },
+  {
+    "label": "Library Awards",
+    "value": "libraryAwards"
+  },
+  {
+    "label": "Library Certificates",
+    "value": "libraryCertificates"
+  },
+  {
+    "label": "SocialWall",
+    "value": "socialWall"
+  },
+  {
+    "label": "Idea Box",
+    "value": "ideaBox"
+  },
+  {
+    "label": "Create IdeaBox",
+    "value": "createIdeaBox"
+  },
+  {
+    "label": "My Ideas",
+    "value": "myIdeas"
+  },
+  {
+    "label": "Forum",
+    "value": "forum"
+  },
+  {
+    "label": "Create Forum",
+    "value": "createforum"
+  },
+  {
+    "label": "My Forums",
+    "value": "myForums"
+  },
+  {
+    "label": "Create Poll",
+    "value": "createPoll"
+  },
+  {
+    "label": "Active Polls",
+    "value": "activePolls"
+  },
+  {
+    "label": "Poll Results",
+    "value": "pollResults"
+  },
+  {
+    "label": "Manage Polls",
+    "value": "closedPolls"
+  },
+  {
+    "label": "Create Survey",
+    "value": "createSurvey"
+  },
+  {
+    "label": "Manage Surveys",
+    "value": "mySurveys"
+  },
+  {
+    "label": "Survey Results",
+    "value": "surveyResults"
+  },
+  {
+    "label": "Survey QuestionBank",
+    "value": "surveyQuestionBank"
+  },
+  {
+    "label": "Reward Points",
+    "value": "rewardPoints"
+  },
+  {
+    "label": "Portal Settings",
+    "value": "portalSettings"
+  },
+  {
+    "label": "Department Masters",
+    "value": "departmentMasters"
+  },
+  {
+    "label": "User Management",
+    "value": "userManagement"
+  },
+  {
+    "label": "Role Management",
+    "value": "roleManagement"
+  },
+  {
+    "label": "HashTag",
+    "value": "hashTag"
+  },
+  {
+    "label": "Org Chart",
+    "value": "Org Chart"
+  }
+]

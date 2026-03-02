@@ -1,0 +1,99 @@
+[
+  {
+    "label": "Dashboard",
+    "link": "dashboard",
+    "icon": "Dashboard.svg",
+    "isDirectLink": true
+  },
+  {
+    "label": "Recognition",
+    "link": "recognition",
+    "icon": "Recognition.svg",
+    "isDirectLink": false,
+    "subMenu": [
+      {
+        "label": "Recognize",
+        "link": "recognition",
+        "icon": ""
+      },
+      {
+        "label": "Program Management",
+        "link": "programmanagement",
+        "icon": ""
+      },
+      {
+        "label": "Library",
+        "link": "library",
+        "icon": ""
+      },
+      {
+        "label": "SocialWall",
+        "link": "socialwall",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "label": "Communication",
+    "link": "communication",
+    "icon": "Communication.svg",
+    "isDirectLink": false,
+    "subMenu": [
+      {
+        "label": "Survey",
+        "link": "mysurvey",
+        "icon": ""
+      },
+      {
+        "label": "Forums",
+        "link": "forum",
+        "icon": ""
+      },
+      {
+        "label": "Polls",
+        "link": "closedpolls",
+        "icon": ""
+      },
+      {
+        "label": "Idea Box",
+        "link": "ideabox",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "label": "Rewards",
+    "link": "rewards",
+    "icon": "Rewards.svg",
+    "isDirectLink": false,
+    "subMenu": [
+      {
+        "label": "Points",
+        "link": "points",
+        "icon": ""
+      },
+      {
+        "label": "Redeem",
+        "link": "redeem",
+        "icon": ""
+      },
+      {
+        "label": "Redemption",
+        "link": "redemption",
+        "icon": ""
+      }
+    ]
+  },
+  {
+    "label": "Calendar",
+    "link": "calendar",
+    "icon": "Calendar.svg",
+    "isDirectLink": true
+  },
+  {
+    "label": "Events Gallery",
+    "link": "eventsgallery",
+    "icon": "Events.svg",
+    "isDirectLink": true
+  }
+]

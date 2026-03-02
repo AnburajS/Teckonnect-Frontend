@@ -1,0 +1,352 @@
+{
+  "column1": {
+    "fields": [
+      {
+        "type": "file",
+        "label": "",
+        "name": "imageByte",
+        "mandatory": false,
+        "disabled": false,
+        "display": true,
+        "viewMode": {
+          "type": "file",
+          "value": "imageByte",
+          "actions": false
+        }
+      },
+      {
+        "type": "text",
+        "label": "User Name",
+        "name": "username",
+        "mandatory": true,
+        "disabled": false,
+        "display": true
+      },
+      {
+        "type": "text",
+        "label": "First Name",
+        "name": "firstname",
+        "mandatory": true,
+        "disabled": false,
+        "display": true
+      },
+      {
+        "type": "text",
+        "label": "Last Name",
+        "name": "lastname",
+        "mandatory": true,
+        "disabled": false,
+        "display": true
+      },
+      {
+        "type": "select",
+        "label": "Gender",
+        "name": "gender",
+        "mandatory": true,
+        "disabled": false,
+        "viewMode": {
+          "type": "text",
+          "value": "gender.name"
+        },
+        "options": [
+          {
+            "value": "Male",
+            "label": "Male"
+          },
+          {
+            "value": "Female",
+            "label": "Female"
+          }
+        ],
+        "display": true
+      }
+    ]
+  },
+  "column2": {
+    "fields": [
+      {
+        "type": "text",
+        "label": "Designation",
+        "name": "designation",
+        "mandatory": true,
+        "disabled": false,
+        "display": true
+      },
+      {
+        "type": "select",
+        "label": "Department",
+        "name": "department",
+        "mandatory": true,
+        "disabled": false,
+        "viewMode": {
+          "type": "text",
+          "value": "department.name"
+        },
+        "reloadData": true,
+        "RESTConfig": {
+          "url": "/departments/activedepartment?active=true",
+          "method": "get",
+          "label": "name",
+          "value": "department.id"
+        },
+        "options": [],
+        "display": true
+      },
+      {
+        "type": "select",
+        "label": "Manager",
+        "name": "manager",
+        "mandatory": false,
+        "disabled": false,
+        "viewMode": {
+          "type": "text",
+          "value": "manager.username"
+        },
+        "reloadData": true,
+        "RESTConfig": {
+          "url": "/users/getUserDetails?active=true",
+          "method": "get",
+          "labelFormattingExists": true,
+          "label": "{username}",
+          "value": "manager.id"
+        },
+        "options": [],
+        "display": true
+      },
+      {
+        "type": "email",
+        "label": "Email",
+        "name": "email",
+        "mandatory": true,
+        "disabled": false,
+        "display": true
+      },
+      {
+        "type": "number",
+        "label": "Contact Number",
+        "name": "telephoneNumber",
+        "mandatory": true,
+        "disabled": false,
+        "display": true,
+        "contactNumber": true,
+        "viewMode": {
+          "type": "number",
+          "value": "telephoneNumber"
+        },
+        "subField": {
+          "type": "select",
+          "label": "",
+          "name": "countryCode",
+          "mandatory": true,
+          "disabled": false,
+          "display": true,
+          "viewMode": {
+            "type": "text",
+            "value": "countryCode"
+          }
+        }
+      }
+    ]
+  },
+  "column3": {
+    "fields": [
+      {
+        "type": "datePicker",
+        "label": "Date of Birth",
+        "name": "dateOfBirth",
+        "mandatory": true,
+        "disabled": false,
+        "display": true,
+        "min": {
+          "subYear": false,
+          "val": null
+        },
+        "max": {
+          "subYear": true,
+          "val": 18
+        }
+      },
+      {
+        "type": "datePicker",
+        "label": "Date of Joining",
+        "name": "dateOfJoining",
+        "mandatory": true,
+        "disabled": false,
+        "display": true,
+        "min": {
+          "subYear": true,
+          "val": 18
+        },
+        "max": {
+          "addMonth": true,
+          "val": 3
+        }
+      },
+      {
+        "type": "selectidm",
+        "label": "User Type",
+        "name": "role",
+        "mandatory": true,
+        "disabled": false,
+        "viewMode": {
+          "type": "text",
+          "value": "role.roleName"
+        },
+        "reloadData": true,
+        "RESTConfig": {
+          "url": "/roles",
+          "method": "get",
+          "label": "roleName",
+          "value": "role.id"
+        },
+        "options": [],
+        "display": true
+      },
+      {
+        "type": "select",
+        "label": "Country",
+        "name": "country",
+        "mandatory": true,
+        "disabled": false,
+        "viewMode": {
+          "type": "text",
+          "value": "country.name"
+        },
+        "reloadData": true,
+        "RESTConfig": {
+          "url": "/country/country_name",
+          "method": "get",
+          "label": "name",
+          "value": "country.id"
+        },
+        "options": [],
+        "display": true
+      },
+      {
+        "type": "select",
+        "label": "Branch",
+        "name": "branch",
+        "mandatory": true,
+        "disabled": false,
+        "viewMode": {
+          "type": "text",
+          "value": "branch.label"
+        },
+        "options": [],
+        "display": true
+      },
+      {
+        "type": "password",
+        "label": "Generate Password",
+        "name": "password",
+        "mandatory": true,
+        "disabled": false,
+        "display": true
+      },
+      {
+        "type": "signature",
+        "label": "",
+        "name": "sigName",
+        "mandatory": false,
+        "disabled": false,
+        "display": true,
+        "viewMode": {
+          "type": "signature",
+          "value": "signatureByte.image",
+          "actions": false
+        }
+      }
+    ]
+  },
+  "status": {
+    "fields": [
+      {
+        "type": "select",
+        "label": "Status",
+        "name": "active",
+        "booleanValue": true,
+        "mandatory": false,
+        "disabled": false,
+        "viewMode": {
+          "type": "text",
+          "value": "active"
+        },
+        "options": [
+          {
+            "label": "Active",
+            "value": "true"
+          },
+          {
+            "label": "In Active",
+            "value": "false"
+          }
+        ],
+        "display": true
+      },
+      {
+        "type": "textArea",
+        "label": "Reason",
+        "name": "enabledReason",
+        "mandatory": false,
+        "disabled": false,
+        "display": true
+      }
+    ]
+  },
+  "createdBy": {
+    "fields": [
+      {
+        "type": "text",
+        "label": "Created By",
+        "name": "createdUser",
+        "mandatory": false,
+        "disabled": true,
+        "display": true
+      },
+      {
+        "type": "datePicker",
+        "label": "Created On",
+        "name": "createdAt",
+        "mandatory": false,
+        "disabled": true,
+        "display": true,
+        "min": {
+          "subYear": false,
+          "val": 1
+        },
+        "max": {
+          "addMonth": false,
+          "val": 1
+        }
+      }
+    ]
+  },
+  "updatedBy": {
+    "fields": [
+      {
+        "type": "text",
+        "label": "Updated By",
+        "name": "updatedUser",
+        "mandatory": false,
+        "disabled": true,
+        "display": true
+      },
+      {
+        "type": "datePicker",
+        "label": "Updated On",
+        "name": "updatedAt",
+        "mandatory": true,
+        "disabled": true,
+        "display": true,
+        "min": {
+          "subYear": false,
+          "val": 1
+        },
+        "max": {
+          "addMonth": false,
+          "val": 1
+        }
+      }
+    ]
+  }
+}

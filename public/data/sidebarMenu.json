@@ -1,0 +1,165 @@
+[
+  {
+    "label": "Dashboard",
+    "link": "dashboard",
+    "icon": "Dashboard.svg",
+    "isDirectLink": true,
+    "dashboard": true,
+    "showMenu": true,
+    "tabs": [
+      {
+        "title": "My Dashboard",
+        "id": "My_Dashboard"
+      },
+      {
+        "title": "Rewards & Recognition",
+        "id": "Rewards_Recognition"
+      },
+      {
+        "title": "Hall of Fame",
+        "id": "Hall_of_Fame"
+      }
+    ]
+  },
+  {
+    "label": "SocialWall",
+    "link": "socialwall",
+    "icon": "socialwall.svg",
+    "isDirectLink": true,
+    "recognition": true,
+    "showMenu": true
+  },
+  {
+    "label": "Recognize",
+    "link": "recognition",
+    "icon": "Recognition.svg",
+    "isDirectLink": true,
+    "recognition": true,
+    "showMenu": true,
+    "sub": [
+      {
+        "label": "Ecards",
+        "link": "ecardIndex",
+        "icon": "",
+        "tabs": [
+          {
+            "title": "Templates",
+            "id": "TemplatesTab"
+          },
+          {
+            "title": "Cards",
+            "id": "CardsTab"
+          },
+          {
+            "title": "Inbox",
+            "id": "InboxTab"
+          }
+        ]
+      },
+      {
+        "label": "Certificates",
+        "link": "certificates",
+        "icon": "",
+        "showMenu": true,
+        "tabs": [
+          {
+            "title": "Certificates",
+            "id": "certificate"
+          },
+          {
+            "title": "My Certificates",
+            "id": "mycertificate",
+            "active": "true"
+          }
+        ]
+      },
+      {
+        "label": "Badges",
+        "link": "badges",
+        "icon": "",
+        "showMenu": true,
+        "tabs": [
+          {
+            "title": "Badges",
+            "id": "badgeTab"
+          },
+          {
+            "title": "My Badges",
+            "id": "mybadgeTab"
+          }
+        ]
+      },
+      {
+        "label": "Awards",
+        "link": "awards",
+        "icon": "",
+        "showMenu": true,
+        "tabs": [
+          {
+            "title": "My Awards",
+            "id": "MyAwardsTab"
+          },
+          {
+            "title": "Nominations",
+            "id": "NominationsTab"
+          },
+          {
+            "title": "Spot",
+            "id": "NominatorTab"
+          },
+          {
+            "title": "Nominate",
+            "id": "NominatorTab"
+          },
+          {
+            "title": "My Nominations",
+            "id": "MyNominationsTab"
+          },
+          {
+            "title": "Approval",
+            "id": "ApprovalTab"
+          },
+          {
+            "title": "Awards",
+            "id": "awardTab"
+          },
+          {
+            "title": "Manage",
+            "id": "ManageTab"
+          }
+        ]
+      }
+    ]
+  },
+
+  {
+    "label": "Communication",
+    "link": "engage",
+    "icon": "Communication.svg",
+    "isDirectLink": true,
+    "communication": true,
+    "showMenu": true
+  },
+  {
+    "label": "Rewards",
+    "link": "points",
+    "icon": "Rewards.svg",
+    "isDirectLink": true,
+    "rewards": true,
+    "showMenu": true,
+    "tabs": [
+      {
+        "title": "Points",
+        "id": "points"
+      },
+      {
+        "title": "Redeem",
+        "id": "redeem"
+      },
+      {
+        "title": "Redemptions",
+        "id": "redemptions"
+      }
+    ]
+  }
+]

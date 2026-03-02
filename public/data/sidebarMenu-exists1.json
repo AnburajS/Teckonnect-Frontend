@@ -1,0 +1,261 @@
+[
+  {
+    "label": "Dashboard",
+    "link": "dashboard",
+    "icon": "Dashboard.svg",
+    "isDirectLink": true,
+    "dashboard": true,
+    "showMenu": true,
+    "tabs": [
+      {
+        "title": "My Dashboard",
+        "id": "My_Dashboard"
+      },
+      {
+        "title": "Rewards & Recognition",
+        "id": "Rewards_Recognition"
+      },
+      {
+        "title": "Hall of Fame",
+        "id": "Hall_of_Fame"
+      }
+    ]
+  },
+  {
+    "label": "Recognition",
+    "link": "recognition",
+    "icon": "Recognition.svg",
+    "isDirectLink": false,
+    "recognition": true,
+    "showMenu": true,
+    "subMenu": [
+      {
+        "label": "Recognize",
+        "link": "recognition",
+        "icon": "",
+        "showMenu": true,
+        "sub": [
+          {
+            "label": "Ecards",
+            "link": "ecardIndex",
+            "icon": "",
+            "tabs": [
+              {
+                "title": "Templates",
+                "id": "TemplatesTab"
+              },
+              {
+                "title": "Cards",
+                "id": "CardsTab"
+              },
+              {
+                "title": "Inbox",
+                "id": "InboxTab"
+              }
+            ]
+          },
+          {
+            "label": "Certificates",
+            "link": "certificates",
+            "icon": "",
+            "showMenu": true,
+            "tabs": [
+              {
+                "title": "Certificates",
+                "id": "certificate"
+              },
+              {
+                "title": "My Certificates",
+                "id": "mycertificate",
+                "active": "true"
+              }
+            ]
+          },
+          {
+            "label": "Badges",
+            "link": "badges",
+            "icon": "",
+            "showMenu": true,
+            "tabs": [
+              {
+                "title": "Badges",
+                "id": "badgeTab"
+              },
+              {
+                "title": "My Badges",
+                "id": "mybadgeTab"
+              }
+            ]
+          },
+          {
+            "label": "Awards",
+            "link": "awards",
+            "icon": "",
+            "showMenu": true,
+            "tabs": [
+              {
+                "title": "My Awards",
+                "id": "MyAwardsTab"
+              },
+              {
+                "title": "Nominations",
+                "id": "NominationsTab"
+              },
+              {
+                "title": "Spot",
+                "id": "NominatorTab"
+              },
+              {
+                "title": "Nominate",
+                "id": "NominatorTab"
+              },
+              {
+                "title": "My Nominations",
+                "id": "MyNominationsTab"
+              },
+              {
+                "title": "Approval",
+                "id": "ApprovalTab"
+              },
+              {
+                "title": "Awards",
+                "id": "awardTab"
+              },
+              {
+                "title": "Manage",
+                "id": "ManageTab"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "label": "SocialWall",
+        "link": "socialwall",
+        "icon": "",
+        "showMenu": true
+      }
+    ]
+  },
+  {
+    "label": "Library",
+    "link": "library",
+    "icon": "Library.svg",
+    "isDirectLink": true,
+    "library": true,
+    "showMenu": true,
+    "tabs": [
+      {
+        "title": "Awards",
+        "id": "Awards"
+      },
+      {
+        "title": "Badges",
+        "id": "Badges"
+      },
+      {
+        "title": "Certificates",
+        "id": "Certificates"
+      },
+      {
+        "title": "Survey",
+        "id": "Survey"
+      }
+    ]
+  },
+  {
+    "label": "Communication",
+    "link": "communication",
+    "icon": "Communication.svg",
+    "isDirectLink": false,
+    "communication": true,
+    "showMenu": true,
+    "subMenu": [
+      {
+        "label": "Survey",
+        "link": "mysurvey",
+        "icon": "",
+        "survey": true,
+        "showMenu": true
+      },
+      {
+        "label": "Forums",
+        "link": "forum",
+        "icon": "",
+        "forum": true,
+        "showMenu": true,
+        "tabs": [
+          {
+            "title": "Forum Pot",
+            "id": "forumpot"
+          },
+          {
+            "title": "My Posts",
+            "id": "myforums"
+          }
+        ]
+      },
+      {
+        "label": "Polls",
+        "link": "closedpolls",
+        "icon": "",
+        "polls": true,
+        "showMenu": true
+      },
+      {
+        "label": "Idea Box",
+        "link": "ideabox",
+        "icon": "",
+        "ideabox": true,
+        "showMenu": true,
+        "tabs": [
+          {
+            "title": "Ideas",
+            "id": "ideas"
+          },
+          {
+            "title": "My Ideas",
+            "id": "myideas"
+          }
+        ]
+      },
+      {
+        "label": "Feedback",
+        "link": "feedback",
+        "icon": "",
+        "feedback": true,
+        "showMenu": true
+      }
+    ]
+  },
+  {
+    "label": "Rewards",
+    "link": "points",
+    "icon": "Rewards.svg",
+    "isDirectLink": true,
+    "rewards": true,
+    "showMenu": true,
+    "tabs": [
+      {
+        "title": "Points",
+        "id": "points"
+      },
+      {
+        "title": "Redeem",
+        "id": "redeem"
+      },
+      {
+        "title": "Redemptions",
+        "id": "redemptions"
+      }
+    ]
+  },
+  {
+    "label": "Org Chart",
+    "link": "orgChart",
+    "icon": "download.svg",
+    "isDirectLink": true,
+    "org": true,
+    "showMenu": true
+  }
+]

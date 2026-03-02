@@ -1,0 +1,53 @@
+.parent_slider_img {
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.parent_slider_img:focus-visible {
+    outline: none;
+}
+
+.parent_slider_img_modal {
+    border-radius: 15px;
+    padding: 10px;
+    margin: 7px;
+    width: 100%;
+}
+
+.slider_image {
+    width: 100%;
+    padding: 5px;
+    border-radius: 15px;
+    background-color: #ffffff;
+}
+
+#collapseBirthday.collapse.show {
+    background-color: #bdd8e3;
+    border-radius: 0px 0px 15px 15px;
+}
+
+.slick-prev {
+    left: -18px !important;
+}
+
+.slick-next {
+    right: -18px !important;
+}
+
+.slick-track {
+    margin: unset;
+}
+
+.eep_slider_lists,
+.eep-cardSlider .slick-list {
+    cursor: grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+}
+
+.eep_slider_lists:active,
+.eep-cardSlider .slick-list:active {
+    cursor: grabbing;
+    cursor: -moz-grabbing;
+    cursor: -webkit-grabbing;
+}
